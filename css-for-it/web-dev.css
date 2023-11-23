@@ -1,0 +1,71 @@
+.web-dev{
+    width: 800px;
+    height: 350px;
+    flex: left;
+    margin: 20px;
+    justify-self: center;
+}
+.short-course{
+    width: 1000px ;
+    margin-inline: auto;
+}
+.topic{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(66, 63, 120);
+}
+.html{
+    margin-top: 50px;
+    display: flex;
+   
+    
+    
+}
+.html-pic{
+    width: 210px;
+    display: inline-block;
+    
+
+}
+.name , .full-name{
+    display: inline-block;
+    
+}
+.full-name{
+ width: 200px;
+  font-size: 17px;
+  
+}
+.name{
+    width: 200px;
+    font-weight:bold;
+    font-size: 23px;
+
+
+}
+.paragragh{
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    flex: middle;
+    margin: 50px 50px 50px 50px;
+   
+}
+.fact{
+   text-align: center;
+    width: 200px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.content{
+    margin-left: 50px;
+   
+}
+div .content li{
+    line-height: 30px;
+    font-size: 18px;
+}
+div .content ul{
+    width: 480px;
+}
