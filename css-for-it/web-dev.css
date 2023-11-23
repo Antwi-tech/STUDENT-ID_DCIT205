@@ -100,3 +100,10 @@ div .content li{
 div .content ul{
     width: 480px;
 }
+.pictures-lang{
+    width: 300px;
+    display: inline-block;
+}
+.images{
+    display: inline-block;
+}
