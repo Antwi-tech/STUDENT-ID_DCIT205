@@ -141,7 +141,7 @@ color:white;
     text-align: end;
 }
 .button{
-    margin-inline: auto;
+   
     width: 150px;
     margin-top: 50px;
     
@@ -202,7 +202,7 @@ button:active{
     transition: 0.15s;
 }
 .short-course{
-    color:rgb(44, 42, 88);
+    color:  ;
     font-weight: bold;
     font-size: 23px;
     margin-top: 30px;
