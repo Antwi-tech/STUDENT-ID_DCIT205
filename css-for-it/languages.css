@@ -1,18 +1,22 @@
 body{ 
-    background: url(program-lang.webp) ;
+   background: url(program-lang.webp);
+   background-attachment: fixed;
     margin: 0;
     background-repeat: no-repeat;
-    height: 270vh;
+   
     }
         
     .form{
-       width: 900px;
+       width: 1000px;
         margin-inline: auto;
        background-color: white;
-       margin-top: 200px;
+       background: transparent;
+       margin-top: 100px;
        padding: 20px;
        height: 1700px;
        border-radius: 9px;
+       color: white;
+       border: 2px solid rgba (255, 255,255,.2);
        
     }
     
@@ -22,12 +26,12 @@ body{
         font-size: 23px;
         margin-bottom: 5px;
         text-align: center;
-        color: #71b;
+        color:wheat;
     }
     .sub-head{
         font-size: 18px;
         text-align: center;
-        color: #9b59b5;
+        color: beige;
     }
     .input-detail{
         display: inline-block;
@@ -35,7 +39,7 @@ body{
         
     }
     .body{
-        display:inline-block;
+      
     }
     .name-box :active{
     
@@ -44,7 +48,7 @@ body{
     .name-box , .date-box{
         margin-right: 12px;
         margin-left: 70px;
-         border-color:#9b59b5;
+         border-color:beige;
           border-radius: 3px; 
           border-width: 2px;
           height: 24px;
@@ -59,7 +63,7 @@ body{
           margin-bottom: 15px;
           margin-left: 70px;
           margin-top: 4px;
-          border-color:#9b59b5;
+          border-color:beige;
           size: 100px;
           border-radius: 3px; 
           border-width: 2px;
@@ -75,7 +79,7 @@ body{
           
           margin-left: 70px;
           margin-top: 4px;
-          border-color:#9b59b5;
+          border-color:beige;
           size: 100px;
           border-radius: 3px; 
           border-width: 2px;
@@ -106,20 +110,21 @@ body{
     .edu-back{
         font-weight: bold;
         font-size: 18px;
-        color:#71b;
+        color:beige;
        
     }
     .sch-course{
         text-align: center;
         margin-top: 35px;
         margin-bottom: 60px;
+        
     }
     .organisation{
         font-size: 18px;
         text-align: center;
         font-weight: bold;
         font-size: 18px;
-        color: #71b;
+        color: beige;
     }
     .org{
         margin-left: 70px;
@@ -127,7 +132,7 @@ body{
     }
     .place-hol{
         margin-left: 10px;
-        border-color:#9b59b5;
+        border-color:beige;
         size: 100px;
         border-radius: 3px; 
         border-width: 2px;
@@ -135,9 +140,11 @@ body{
         width: 200px
         
     }
-    
+    .course-sch{
+        text-align: left;
+    }
     .submit-button{
-        background-color:#9b59b5;
+        background-color:rgb(44, 42, 88);
         border: none; height: 30px; width: 105px;
         color:white;
         border-radius: 5px;
@@ -148,8 +155,8 @@ body{
     
         .submit-button:hover{
                opacity: 0.7;
-               transition: background-color 1s,
-               color 1s;
+               transition: background-color 1s;
+               color: 1s;
     
         }
         .submit-button:active{
@@ -159,3 +166,11 @@ body{
            text-align: center;
            margin-top: 100px;
           }
+        .sch{
+            display: inline-block;
+        
+        }
+        .level{
+            display: inline-block;
+        
+        }

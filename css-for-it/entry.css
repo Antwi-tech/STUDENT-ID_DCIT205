@@ -29,7 +29,7 @@
 }
 .sub-con , .content{
     font-weight: bold;
-    text-align: center;
+    text-align: ;
     color: #26528d;
     margin: 8px;
 
@@ -162,7 +162,11 @@ button{
     cursor: pointer;
     margin-right: 10px;
     transition: opacity 0.1s;
-    
+     justify-content: center;
+    margin-inline: auto;
+    align-items: center;
+    margin-left: 700px;
+
     
     }
 button:hover{
@@ -210,5 +214,34 @@ button:active{
 }
 .image-container {
     display: flex;
+
+}
+.ini{
+    text-decoration: none;
+}
+.school-info{
+    color: white;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+.school-info:hover{
+color: rgb(203, 137, 38);
+opacity: 0.5;
+cursor: pointer;
+}
+.pic-home{
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.742);
+    margin-left: 200px;
+    margin-top: 20px;
+        
+}
+.pic-home:hover{
+    cursor: pointer;
+    border-radius: 20px;
+  }
+.img-home{
+width: 30px;
+display: flex;
 
 }

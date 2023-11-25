@@ -8,7 +8,7 @@ body {
 }
 
 .body {
-    background-color: rgba(38, 82, 141, 0.8); /* Use rgba for background color with transparency */
+    background-color: rgba(38, 82, 141, 0.8);
     color: beige;
     display: block;
     margin-left: auto;
@@ -20,7 +20,7 @@ body {
 
 p {
     padding: 10px;
-    color: #fff; /* Text color */
+    color: #fff; 
     line-height: 1.6;
 }
 
@@ -91,4 +91,27 @@ p {
 .tel {
     margin-left: 45px;
     font-family: 'Times New Roman', Times, serif;
-}.
+}
+.pic-home{
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.742);
+   margin-left: 200px;
+        
+}
+.pic-home:hover{
+    cursor: pointer;
+    border-radius: 20px;
+    
+  }
+.img-home{
+width: 30px;
+
+
+}
+.icons{
+    justify-content: right;
+    align-items: last baseline;
+    align-self: last baseline;
+    align-content: end;
+    
+}

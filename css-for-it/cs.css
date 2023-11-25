@@ -2,15 +2,21 @@ b{
     color: beige;
 }
 .bground{
-    background-color: beige;
+    background:url(des.jpg ) ;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
     height: 1400px;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-size: cover
+    
 }
 .body{
     background-color: #b2beb5;
      height: 1000px;
      padding: 20px;
+     background-color: transparent;
+    
     }
 .body,.head,.footer{
     margin-left: auto;
@@ -43,7 +49,7 @@ b{
         
     }
     .p-1{
-        color: #00357a;
+        color: black;
         justify-content:center;
         line-height: 30px;
     }
@@ -118,4 +124,28 @@ b{
         font-size: 12px;
         font-weight: bold;
     }    
-    
+    .school-info{
+        color: white;
+        text-decoration: none;
+        vertical-align: bottom;
+        line-height: 20px;
+    }
+    .school-info:hover{
+        color: #b2beb5;
+        cursor: pointer;
+    }
+    .pic-home{
+        width: 100px;
+        background-color: rgba(255, 255, 255, 0.742);
+        margin-top: 20px;
+        margin-left: 200px;
+            
+    }
+    .pic-home:hover{
+        cursor: pointer;
+        border-radius: 20px;
+      }
+    .img-home{
+    width: 30px;
+    display: flex;
+    }

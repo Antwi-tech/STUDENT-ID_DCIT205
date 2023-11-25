@@ -130,6 +130,10 @@ margin-right: 20px;
 }
 .content{
 color: white;
+color: white;
+text-decoration: none;
+vertical-align: bottom;
+
 
 }
 .content :hover{
@@ -147,3 +151,47 @@ color: white;
 .tel-email{
     color: white;
 }
+.pic-home{
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.742);
+        
+}
+.pic-home:hover{
+    cursor: pointer;
+    border-radius: 20px;
+  }
+.img-home{
+width: 30px;
+display: flex;
+
+}
+
+.school-info{
+    color: white;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+.social-media{
+    text-align: right;
+    color:rgb(203, 137, 38);
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+.fa{
+    padding: 10px;
+    font-size: 10px;
+    width: 20px;
+    margin-left: 25px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    background-color:black;
+    color:white;
+    }
+    
+    .fa:hover{
+        background-color: white;
+        color: black;
+        transition: 0.25s;
+    }
