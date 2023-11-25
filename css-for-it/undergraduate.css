@@ -84,9 +84,9 @@
 }
 .content{
     display: none;
-    max-height: 200px; /* Set the maximum height of the dropdown */
-    overflow-y: auto; /* Enable vertical scrolling if content exceeds max height */
-    border: 1px solid #ccc; /* Add border for better visibility */
+    max-height: 200px; 
+    overflow-y: auto; 
+    border: 1px solid #ccc;
     position: absolute;
     background-color: white;
     box-shadow: 0 8px 16px rgba(0,0,0,0.1);
@@ -95,3 +95,55 @@
   .cont{
     color: white;
   }
+  .cont:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+div .cont {
+    text-decoration: none;
+    color: white;
+}
+.pic-home{
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.742);
+        
+}
+.pic-home:hover{
+    cursor: pointer;
+    border-radius: 20px;
+  }
+.img-home{
+width: 30px;
+display: flex;
+
+}
+.school-info{
+    color: white;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+.fa{
+    padding: 10px;
+    font-size: 10px;
+    width: 20px;
+    margin-left: 25px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    background-color:black;
+    color:white;
+    }
+    
+    .fa:hover{
+        background-color: white;
+        color: black;
+        transition: 0.25s;
+    }
+    
+    .social-media{
+        text-align: right;
+        color:rgb(203, 137, 38);
+        font-family: Arial;
+        font-size: 12px;
+        font-weight: bold;
+    }    
