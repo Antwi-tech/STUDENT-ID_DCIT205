@@ -1,5 +1,5 @@
 body{ 
-   background: url(program-lang.webp);
+   background: black;
    background-attachment: fixed;
     margin: 0;
     background-repeat: no-repeat;
@@ -9,8 +9,8 @@ body{
     .form{
        width: 1000px;
         margin-inline: auto;
-       background-color: white;
-       background: transparent;
+       background-color:  #00357a;
+       opacity: 0.8;
        margin-top: 100px;
        padding: 20px;
        height: 1700px;
